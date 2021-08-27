@@ -199,7 +199,11 @@ transition: 2s;
 	
 	.Main{
 		font-size:auto;
-		font-family: lucida console;}
+		font-family: lucida console;
+	width: auto;
+height: auto;
+display: inline;
+animation:none;}
 	
 	span{display: inline;
 	margin:auto;
