@@ -162,7 +162,7 @@ transition: 2s;
 }
 
 /*Mobile ver*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 	body{
 
 		padding: 0;
@@ -200,10 +200,11 @@ transition: 2s;
 	.Main{
 		font-size:auto;
 		font-family: lucida console;
-	width: auto;
-height: auto;
-display: inline;
-animation:none;}
+		width: auto;
+		height: auto;
+		display: inline;
+		animation:none;
+	}
 	
 	span{display: inline;
 	margin:auto;

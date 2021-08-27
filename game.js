@@ -73,7 +73,7 @@ for(var z = 1; z<=cnt; z++){
 
 
 function zap(){
-if(window.innerWidth > 400){	
+if(window.innerWidth > 600){	
 document.getElementById("bg-modal").style.display="flex";
 
 if(q == 1 ){document.getElementById("modal-text").innerHTML = "A real friend is one who walks in when the rest of the world walks out";}
