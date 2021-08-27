@@ -73,15 +73,17 @@ for(var z = 1; z<=cnt; z++){
 
 
 function zap(){
+if(window.innerWidth > 400){	
 document.getElementById("bg-modal").style.display="flex";
 
 if(q == 1 ){document.getElementById("modal-text").innerHTML = "A real friend is one who walks in when the rest of the world walks out";}
 else if (q == 2 ){document.getElementById("modal-text").innerHTML = "Love is composed of a single soul inhabiting two bodies.";}
-else if (q == 3 ){document.getElementById("modal-text").innerHTML = "Hoy bawal yan";}
-else if (q == 4 ){document.getElementById("modal-text").innerHTML = "sana alls";}
+else if (q == 3 ){document.getElementById("modal-text").innerHTML = "sana mahuli kayo kung sakali";}
+else if (q == 4 ){document.getElementById("modal-text").innerHTML = "ay, wow";}
 else if (q == 5 ){document.getElementById("modal-text").innerHTML = "magbati na kayo pls";}
-else if (q == 6 ){document.getElementById("modal-text").innerHTML = "kung ako sayo, aamin na ko";}
-
+else if (q == 6 ){document.getElementById("modal-text").innerHTML = "no comment, bahala ka aba ";}
+}
+else {}
 }
 
 
